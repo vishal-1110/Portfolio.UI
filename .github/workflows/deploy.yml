@@ -1,4 +1,4 @@
-name: portfolio-ui
+name: portfolio.UI
 
 on:
   push:
@@ -27,7 +27,7 @@ jobs:
         run: npm ci
 
       - name: Build Angular application
-        run: npx ng build --configuration production --base-href=/portfolio-ui/
+        run: npx ng build --configuration production --base-href=/Portfolio.UI/
         # Note: If your repo is <username>.github.io, change --base-href to /
 
       - name: Upload Pages artifact
