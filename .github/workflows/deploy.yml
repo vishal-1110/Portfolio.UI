@@ -3,7 +3,7 @@ name: portfolio-ui
 on:
   push:
     branches:
-      - main
+      - master
 
 permissions:
   contents: read
